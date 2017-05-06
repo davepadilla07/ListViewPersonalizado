@@ -15,6 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RegistrarC" />
+        <activity android:name=".ListarC" />
+        <activity android:name=".Reportes"></activity>
     </application>
 
 </manifest>
