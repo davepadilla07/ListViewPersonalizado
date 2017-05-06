@@ -3,9 +3,22 @@
     <string name="registro">REGISTRAR CARROS</string>
     <string name="listar">LISTAR CARROS</string>
     <string name="report">REPORTES</string>
-    <string-array name="opciones1">
+    <string name="registrocarros">REGISTRO DE CARROS</string>
+    <string name="placa">PLACA</string>
+    <string name="marca">MARCA</string>
+    <string name="modelo">MODELO</string>
+    <string name="color">COLOR</string>
+    <string name="precio">PRECIO</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="borrar">BORRAR</string>
+    <string-array name="opciones">
         <item>@string/registro</item>
         <item>@string/listar</item>
         <item>@string/report</item>
+    </string-array>
+    <string-array name="opciones1">
+        <item></item>
+        <item></item>
+        <item></item>
     </string-array>
 </resources>
