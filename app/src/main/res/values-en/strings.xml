@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListViewPersonalizado</string>
+    <string name="borrar">CLEAR</string>
+    <string name="c1">White</string>
+    <string name="c2">Red</string>
+    <string name="c3">Black</string>
+    <string name="c4">Gray</string>
+    <string name="c5">Gold</string>
+    <string name="c6">Blue</string>
+    <string name="color">COLOR</string>
+    <string name="error1">Please enter the licence plate</string>
+    <string name="error2">Please enter the price</string>
+    <string name="guardar">SAVE</string>
+    <string name="listar">LIST CARS</string>
+    <string name="m1">Kia</string>
+    <string name="m2">Chevrolet</string>
+    <string name="m3">Hyundai</string>
+    <string name="m4">Mazda</string>
+    <string name="m5">Mercedez</string>
+    <string name="marca">CAR BRAND</string>
+    <string name="modelo">CAR MODEL</string>
+    <string name="placa">LICENCE PLATE</string>
+    <string name="precio">PRICE</string>
+    <string name="registro">CAR REGISTRATION</string>
+    <string name="registrocarros">CAR REGISTER</string>
+    <string name="report">REPORTS</string>
+    <string name="report1">The number of registered cars is:</string>
+    <string name="report2">The number of registered cars by licence plate is:</string>
+    <string name="report3">the number of registered cars by color is:</string>
+</resources>
