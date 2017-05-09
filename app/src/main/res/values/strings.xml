@@ -11,14 +11,60 @@
     <string name="precio">PRECIO</string>
     <string name="guardar">GUARDAR</string>
     <string name="borrar">BORRAR</string>
+    <string name="error1">Por favor digite la placa</string>
+    <string name="error2">Por favor digite el precio</string>
+    <string name="report1">El numero de carros registrados es:</string>
+    <string name="report2">El numero de carros registrados por marca es:</string>
+    <string name="report3">El numero de carros registrados por color es:</string>
+    <string name="m1">Kia</string>
+    <string name="m2">Chevrolet</string>
+    <string name="m3">Hyundai</string>
+    <string name="m4">Mazda</string>
+    <string name="m5">Mercedez</string>
+    <string name="c1">Blanco</string>
+    <string name="c2">Rojo</string>
+    <string name="c3">Negro</string>
+    <string name="c4">Gris</string>
+    <string name="c5">Dorado</string>
+    <string name="c6">Azul</string>
     <string-array name="opciones">
         <item>@string/registro</item>
         <item>@string/listar</item>
         <item>@string/report</item>
     </string-array>
-    <string-array name="opciones1">
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="opcion">
+        <item>@string/m1</item>
+        <item>@string/m2</item>
+        <item>@string/m3</item>
+        <item>@string/m4</item>
+        <item>@string/m5</item>
+    </string-array>
+    <string-array name="opcion1">
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+    </string-array>
+    <string-array name="opcion2">
+        <item>@string/c1</item>
+        <item>@string/c2</item>
+        <item>@string/c3</item>
+        <item>@string/c4</item>
+        <item>@string/c5</item>
+        <item>@string/c6</item>
     </string-array>
 </resources>

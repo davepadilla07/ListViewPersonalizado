@@ -17,7 +17,10 @@
         </activity>
         <activity android:name=".RegistrarC" />
         <activity android:name=".ListarC" />
-        <activity android:name=".Reportes"></activity>
+        <activity android:name=".Reportes" />
+        <activity android:name=".ReporteCarrosRegistrados" />
+        <activity android:name=".ReporteCarroMarcaRegistrado" />
+        <activity android:name=".ReporteCarroColorRegistrado"></activity>
     </application>
 
 </manifest>

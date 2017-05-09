@@ -26,7 +26,7 @@ public class Principal extends AppCompatActivity {
 
         res=this.getResources();
 
-        opc=res.getStringArray(R.array.opciones1);
+        opc=res.getStringArray(R.array.opciones);
 
         ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,opc);
 
