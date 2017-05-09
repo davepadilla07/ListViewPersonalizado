@@ -64,6 +64,9 @@ public class RegistrarC extends AppCompatActivity {
 
             foto=String.valueOf(fotoAleatoria());
             Carro c=new Carro(foto, placa, marca, modelo, color, precio);
+            c.guardar();
+
+            limpiar();
 
         }
     }

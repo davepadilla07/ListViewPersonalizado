@@ -27,10 +27,19 @@
     <string name="c4">Gris</string>
     <string name="c5">Dorado</string>
     <string name="c6">Azul</string>
+    <string name="reportar1">NUMERO DE CARROS REGISTRADOS</string>
+    <string name="reportar2">NUMERO DE CARROS REGISTRADOS POR MARCA</string>
+    <string name="reportar3">NUMERO DE CARROS REGISTRADOS POR COLOR</string>
+    <string name="generar">GENERAR REPORTE</string>
     <string-array name="opciones">
         <item>@string/registro</item>
         <item>@string/listar</item>
         <item>@string/report</item>
+    </string-array>
+    <string-array name="opciones1">
+        <item>@string/reportar1</item>
+        <item>@string/reportar2</item>
+        <item>@string/reportar3</item>
     </string-array>
     <string-array name="opcion">
         <item>@string/m1</item>

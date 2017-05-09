@@ -94,18 +94,20 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:text="@string/guardar"
+                android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button2"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="Registrar"
+                android:text="@string/guardar" />
 
             <Button
-                android:text="@string/borrar"
+                android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="borrar"
+                android:text="@string/borrar" />
         </LinearLayout>
 
     </LinearLayout>

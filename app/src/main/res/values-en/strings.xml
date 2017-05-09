@@ -28,4 +28,8 @@
     <string name="report1">The number of registered cars is:</string>
     <string name="report2">The number of registered cars by licence plate is:</string>
     <string name="report3">the number of registered cars by color is:</string>
+    <string name="generar">REPORT GENERATION</string>
+    <string name="reportar1">NUMBER OF REGISTERED CARS</string>
+    <string name="reportar2">NUMBER OF REGISTERED CARS BY LICENCE PLATE</string>
+    <string name="reportar3">NUMBER OF REGISTERED CARS BY COLOR</string>
 </resources>
