@@ -11,6 +11,8 @@
     <string name="precio">PRECIO</string>
     <string name="guardar">GUARDAR</string>
     <string name="borrar">BORRAR</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="mensaje">Persona guardada exitosamente</string>
     <string name="error1">Por favor digite la placa</string>
     <string name="error2">Por favor digite el precio</string>
     <string name="report1">El numero de carros registrados es:</string>

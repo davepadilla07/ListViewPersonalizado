@@ -2,6 +2,7 @@ package com.example.android.listviewpersonalizado;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -66,6 +67,7 @@ public class RegistrarC extends AppCompatActivity {
             Carro c=new Carro(foto, placa, marca, modelo, color, precio);
             c.guardar();
 
+            new AlertDialog.Builder(this).setTitle(getResources().getString(R.string.aceptar)).setMessage(getResources().getString(R.string.mensaje)).show();
             limpiar();
 
         }
@@ -97,8 +99,8 @@ public class RegistrarC extends AppCompatActivity {
     public void borrar(View v){ limpiar();}
 
     public int fotoAleatoria(){
-        int fotos[]={R.drawable.foto1,R.drawable.foto2,R.drawable.foto3,R.drawable.foto4,R.drawable.foto5,R.drawable.foto6,R.drawable.foto7,R.drawable.foto8,R.drawable.foto9};
-        int numero=(int)(Math.random()*9);
+        int fotos[]={R.drawable.foto1,R.drawable.foto2,R.drawable.foto3,R.drawable.foto4,R.drawable.foto5,R.drawable.foto6,R.drawable.foto7,R.drawable.foto8};
+        int numero=(int)(Math.random()*8);
         return fotos[numero];
     }
 

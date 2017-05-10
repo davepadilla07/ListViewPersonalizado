@@ -36,7 +36,7 @@ public class AdaptadorCarro extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View view , ViewGroup viewGroup) {
+    public View getView(int position, View convertview , ViewGroup parent) {
 
         TextView placa, marca, modelo, precio;
         ImageView foto;
@@ -55,7 +55,7 @@ public class AdaptadorCarro extends BaseAdapter {
 
         placa.setText(carros.get(position).getPlaca());
         marca.setText(carros.get(position).getMarca());
-        modelo.setText(carros.get(position).getModelo());
+        modelo.setText(""+carros.get(position).getModelo());
         precio.setText(""+carros.get(position).getPrecio());
         foto.setImageResource(Integer.parseInt(carros.get(position).getFoto()));
 

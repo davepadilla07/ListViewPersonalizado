@@ -33,5 +33,6 @@ public class ReporteCarrosRegistrados extends AppCompatActivity {
             contc=contc+1;
         }
         aux=getResources().getString(R.string.report1)+" "+contc;
+        cajaResultado.setText(aux);
     }
 }

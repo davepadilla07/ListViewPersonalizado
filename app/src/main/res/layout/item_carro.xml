@@ -18,40 +18,43 @@
             app:srcCompat="@drawable/foto1" />
 
         <TextView
-            android:id="@+id/txtPlaca"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_toEndOf="@+id/imgFoto"
-            android:layout_toRightOf="@+id/imgFoto"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/txtMarca"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/txtPlaca"
-            android:layout_alignRight="@+id/txtPlaca"
-            android:layout_below="@+id/txtPlaca"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/txtModelo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/txtMarca"
-            android:layout_toEndOf="@+id/imgFoto"
-            android:layout_toRightOf="@+id/imgFoto"
-            android:text="TextView" />
-
-        <TextView
             android:id="@+id/txtPrecio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/txtModelo"
             android:layout_alignRight="@+id/txtModelo"
             android:layout_below="@+id/txtModelo"
-            android:text="TextView" />
+            android:textAlignment="textStart"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPlaca"
+            android:layout_toRightOf="@+id/imgFoto"
+            android:layout_toEndOf="@+id/imgFoto"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtPlaca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/txtMarca"
+            android:layout_alignStart="@+id/txtMarca"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtModelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtMarca"
+            android:layout_alignLeft="@+id/txtMarca"
+            android:layout_alignStart="@+id/txtMarca"
+            android:fontFamily="sans-serif" />
 
     </RelativeLayout>
 </LinearLayout>
