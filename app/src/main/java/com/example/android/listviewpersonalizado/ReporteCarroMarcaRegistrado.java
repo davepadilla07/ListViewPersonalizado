@@ -42,24 +42,18 @@ public class ReporteCarroMarcaRegistrado extends AppCompatActivity {
     public void reporteMarca(View v){
         int contc=0;
         String marca;
-        String aux2;
+
 
         marca=comboMarca.getSelectedItem().toString();
 
+        carros=Datos.getCarros();
         for (int i = 0; i < carros.size(); i++) {
 
-            aux2 = carros.get(i).getMarca();
-            if(aux2==marca){
+
+            if(carros.get(i).getMarca().equals(marca)){
                 contc=contc+1;
-            }else{
-                i++;
             }
 
-            /*if ((carros.get(i).getMarca().equalsIgnoreCase(marca))){
-                contc=contc +1;
-            }else{
-                i++;
-            }*/
 
             aux=getResources().getString(R.string.report2)+" "+contc;
             cajaResultado.setText(aux);

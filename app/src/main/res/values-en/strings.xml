@@ -32,4 +32,6 @@
     <string name="reportar1">NUMBER OF REGISTERED CARS</string>
     <string name="reportar2">NUMBER OF REGISTERED CARS BY LICENCE PLATE</string>
     <string name="reportar3">NUMBER OF REGISTERED CARS BY COLOR</string>
+    <string name="aceptar">Accept</string>
+    <string name="mensaje">Car saved succesfully</string>
 </resources>
